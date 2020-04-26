@@ -163,3 +163,7 @@ Backup of *.doc*
 
 # Visio autosave temporary files
 *.~vsd*
+
+# Large files
+data/
+data.tar.gz
