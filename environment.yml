@@ -1,16 +1,16 @@
 name: planet-amazon
 channels:
-  - pytorch
   - conda-forge
   - haasad
   - fastai
   - defaults
 dependencies:
   - _libgcc_mutex=0.1
+  - _pytorch_select=0.2
   - asn1crypto=1.3.0
   - attrs=19.3.0
   - backcall=0.1.0
-  - beautifulsoup4=4.8.2
+  - beautifulsoup4=4.9.0
   - blas=1.0
   - bleach=3.1.4
   - bottleneck=1.3.2
@@ -22,10 +22,11 @@ dependencies:
   - chardet=3.0.4
   - cryptography=2.8
   - cudatoolkit=10.1.243
+  - cudnn=7.6.5
   - cycler=0.10.0
   - cymem=2.0.2
   - cython-blis=0.2.4
-  - dataclasses=0.6
+  - dataclasses=0.7
   - dbus=1.13.12
   - decorator=4.4.2
   - defusedxml=0.6.0
@@ -57,7 +58,7 @@ dependencies:
   - jedi=0.16.0
   - jinja2=2.11.1
   - joblib=0.14.1
-  - jpeg=9c
+  - jpeg=9b
   - jsonschema=3.2.0
   - jupyter=1.0.0
   - jupyter_client=6.1.2
@@ -86,8 +87,8 @@ dependencies:
   - libvpx=1.7.0
   - libxcb=1.13
   - libxml2=2.9.9
-  - libxslt=1.1.32
-  - lxml=4.4.1
+  - libxslt=1.1.33
+  - lxml=4.5.0
   - markupsafe=1.1.1
   - matplotlib=3.1.3
   - matplotlib-base=3.1.3
@@ -119,7 +120,7 @@ dependencies:
   - pcre=8.43
   - pexpect=4.8.0
   - pickleshare=0.7.5
-  - pillow=6.0.0
+  - pillow=7.0.0
   - pip=20.0.2
   - pixman=0.38.0
   - plac=0.9.6
@@ -144,7 +145,7 @@ dependencies:
   - pyyaml=5.3.1
   - pyzmq=18.1.1
   - qt=5.9.7
-  - qtconsole=4.7.2
+  - qtconsole=4.7.3
   - qtpy=1.9.0
   - readline=8.0
   - requests=2.23.0
@@ -163,7 +164,7 @@ dependencies:
   - testpath=0.4.4
   - thinc=7.0.8
   - tk=8.6.8
-  - torchvision=0.5.0
+  - torchvision=0.2.1
   - tornado=6.0.4
   - tqdm=4.45.0
   - traitlets=4.3.3
@@ -173,7 +174,7 @@ dependencies:
   - wheel=0.34.2
   - widgetsnbextension=3.5.1
   - xz=5.2.5
-  - yaml=0.2.3
+  - yaml=0.1.7
   - zeromq=4.3.1
   - zipp=2.2.0
   - zlib=1.2.11
