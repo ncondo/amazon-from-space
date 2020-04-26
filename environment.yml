@@ -4,7 +4,6 @@ channels:
   - haasad
   - fastai
   - defaults
-  - pip
 dependencies:
   - _libgcc_mutex=0.1
   - _pytorch_select=0.2
