@@ -8,5 +8,4 @@ dependencies:
   - pip:
     - fastai
     - jupyter
-    - eidl7zip
 
