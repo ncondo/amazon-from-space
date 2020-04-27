@@ -1,11 +1,11 @@
 name: planet-amazon
 channels:
   - defaults
-  - conda-forge
 dependencies:
   - python=3.6
-  - fastai
-  - jupyter
-  - opencv
-  - eidl7zip
+  - pip:
+    - fastai
+    - jupyter
+    - opencv
+    - eidl7zip
 
