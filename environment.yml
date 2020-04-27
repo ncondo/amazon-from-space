@@ -3,17 +3,8 @@ channels:
   - defaults
 dependencies:
   - python=3.6
-  - jupyter
-  - jupyter_contrib_nbextensions
-  - nb_conda
   - fastai
-  - libjpeg-turbo
-  - pillow
-  - nvidia-ml-py3
-  - eidl7zip
-  - seaborn
+  - jupyter
   - opencv
-  - tqdm
-  - scikit-learn
-prefix: /home/ncondo/anaconda3/envs/planet-amazon
+  - eidl7zip
 
