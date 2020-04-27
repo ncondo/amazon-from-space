@@ -11,6 +11,8 @@ You can read my full project report [here](./report.pdf)
 
 You can see my original project proposal [here](./proposal.pdf)
 
+You can find the blog post of my project workflow [here](https://medium.com/@ncondo/understanding-the-amazon-rainforest-with-deep-learning-732bfb2eca6e)
+
 
 ### Requirements
 
