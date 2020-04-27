@@ -3,9 +3,10 @@ channels:
   - defaults
 dependencies:
   - python=3.6
+  - opencv
+  - pip
   - pip:
     - fastai
     - jupyter
-    - opencv
     - eidl7zip
 
